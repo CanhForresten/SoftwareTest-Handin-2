@@ -1,0 +1,13 @@
+namespace MobileChargingStation.Lib.Boundary.Interfaces;
+
+public class LogFile : ILogFile
+{
+    private string logFile_ = "logfile.txt";
+    public void Log(string text, int id)
+    {
+        using (var writer = File.AppendText(logFile_))
+        {
+            writer.WriteLine(DateTime.Now + text + id);
+        }
+    }
+}
