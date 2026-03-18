@@ -1,0 +1,29 @@
+Summary
+  Generated on: 18-03-2026 - 15:22:36
+  Coverage date: 18-03-2026 - 15:22:34
+  Parser: Cobertura
+  Assemblies: 1
+  Classes: 7
+  Files: 7
+  Line coverage: 100%
+  Covered lines: 177
+  Uncovered lines: 0
+  Coverable lines: 177
+  Total lines: 376
+  Branch coverage: 96.4% (54 of 56)
+  Covered branches: 54
+  Total branches: 56
+  Method coverage: 100% (22 of 22)
+  Full method coverage: 100% (22 of 22)
+  Covered methods: 22
+  Fully covered methods: 22
+  Total methods: 22
+
+MobileChargingStation.Lib                                           100%
+  DetectedEventArgs                                                 100%
+  Display                                                           100%
+  MobileChargingStation.Lib.Boundary.Door                           100%
+  MobileChargingStation.Lib.Boundary.Interfaces.CurrentEventArgs    100%
+  MobileChargingStation.Lib.Boundary.RfidReader                     100%
+  MobileChargingStation.Lib.Boundary.UsbChargerSimulator            100%
+  MobileChargingStation.Lib.Control.StationControl                  100%
